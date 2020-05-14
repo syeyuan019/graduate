@@ -1,0 +1,79 @@
+.select-form {
+    margin-left: 33%;
+    width: 460px;
+    height: 480px;
+    border: 1px #568bb9 solid; 
+    border-radius: 10px; 
+}
+
+.question {
+    margin-left: 36%;
+    margin-top: 3%;
+    text-align: left;
+    line-height: 45px;
+    width: 390px;
+    height: 390px;
+    border: 1px #568bb9 solid; 
+    border-radius: 10px; 
+}
+
+.content {
+    margin-top: 5%;
+    margin-left: 3%;
+    width: 60px;
+}
+
+.labform {
+    margin-top: 20%;
+    margin-left: 35%;
+    color: rgb(17, 17, 17);
+}
+
+.select-type {
+    margin-top: 3%;
+    text-align: center;
+    color: rgb(17, 17, 17);
+}
+
+.revibutton {
+    /* margin-left: 40%; */
+    width: 90px;
+    height: 26px;
+    color: rgb(17, 17, 17);
+    background: transparent;
+    border-color: rgb(180, 178, 178);
+    border-width: 0.1px;
+}
+
+.next-button {
+    margin-left: 37%;
+    width: 90px;
+    height: 26px;
+    line-height: 6px;
+    color: rgb(17, 17, 17);
+    background: transparent;
+    border-color: rgb(180, 178, 178);
+    border-width: 0.1px;
+}
+
+.show-question {
+    margin-top: 6%;
+    margin-left: 6%;
+}
+
+.fill-input {
+    background:none;
+    border:none;
+    border-bottom:0.1px solid gray;
+    height: 25px;
+    z-index: 999999;
+}
+
+.showColorN {
+    text-align: center;
+    color: red;
+}
+.showColorY {
+    text-align: center;
+    color: green;
+}

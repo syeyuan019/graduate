@@ -1,0 +1,13 @@
+
+export const UPDATE_MENU = 'UPDATE_MENU'
+
+export const SELECT_QUESTION_TYPE = 'SELECT_QUESTION_TYPE'
+
+export const QUESTION_COUNT = 'QUESTION_COUNT'
+
+export const GET_PICTURE = 'GET_PICTURE'
+
+export const GET_EDIT_DATA = 'GET_EDIT_DATA'
+
+export const LOAD_DATA = 'LOAD_DATA'
+

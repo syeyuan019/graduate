@@ -1,0 +1,11 @@
+
+export { default as Login } from './Login'
+export { default as NotFound } from './NotFound'
+export { default as Display } from './Display'
+export { default as Home } from './Home'
+export { default as Register } from './Register'
+export { default as ForgetPwd } from './ForgetPwd'
+export { default as Site } from './Site'
+export { default as Review } from './Review'
+export { default as KnowBase } from './KnowledgeBase'
+export { default as User } from './User'

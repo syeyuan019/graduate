@@ -1,0 +1,29 @@
+.home-box {
+    margin-left: 18%;
+    width: 950px;
+}
+
+.float1 {
+    /* 设置两个div同行显示，需要float、width */
+    float: left;
+    width: 900px;
+}
+
+.float2 {
+    float: right;
+    width: 20px;
+}
+
+
+.height {
+    width: 100%;
+    height: 280px;
+}
+
+.hbutton {
+    width: 25px;
+    background: transparent;
+    border-color: rgb(180, 178, 178);
+    border-width: 0.3px;
+    color: rgb(90, 89, 89);
+}

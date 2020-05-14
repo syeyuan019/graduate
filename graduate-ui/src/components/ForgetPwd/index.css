@@ -1,0 +1,78 @@
+.yzFormE {
+    margin-top: 10%;
+    margin-left: 37%;
+}
+
+.yzFormEn {
+    margin-top: 6%;
+    margin-left: 36%;
+}
+
+.newPwd {
+    margin-top: 10%;
+    margin-left: 41%;
+    border: none;
+    background: transparent;
+}
+
+.hintMsg {
+    margin-top: 10%;
+    margin-left: 39%;
+    border: none;
+    background: transparent;
+    font-size: 18px;
+}
+
+.button1 {
+    width: 90px;
+    height: 28px;
+    background-color: white;
+    border-color: rgb(180, 178, 178);
+    border-width: 0.3px;
+}
+
+.sbutton1 {
+    margin-left: 15%;
+    width: 90px;
+    height: 28px;
+    background-color: white;
+    border-color: rgb(180, 178, 178);
+    border-width: 0.3px;
+}
+
+.sbutton3 {
+    margin-left: 20%;
+    width: 90px;
+    height: 28px;
+    background-color: white;
+    border-color: rgb(180, 178, 178);
+    border-width: 0.3px;
+}
+
+.sbutton2 {
+    margin-left: 13%;
+    width: 90px;
+    height: 28px;
+    background-color: white;
+    border-color: rgb(180, 178, 178);
+    border-width: 0.3px;
+}
+
+.userButton {
+    margin-left: 3%;
+    width: 90px;
+    height: 25px;
+    background-color: white;
+    border-color: rgb(180, 178, 178);
+    border-width: 0.3px;
+}
+
+.eselect {
+    width: 300px;
+    height: 30px;
+}
+
+.userShow {
+    margin-top: 15%;
+    text-align: center;
+}

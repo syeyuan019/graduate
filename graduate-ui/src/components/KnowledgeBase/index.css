@@ -1,0 +1,21 @@
+
+.edit-left {
+    margin-left: 4%;
+}
+
+.leftMenu {
+    float: left;
+}
+
+.editArea {
+    float: left;
+    width: 90%;
+}
+
+.disable {
+    pointer-events: none;
+}
+
+.bnm {
+    pointer-events: visible;
+}

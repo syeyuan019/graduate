@@ -1,0 +1,49 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521/graduation
+    username: graduate
+    password: graduate
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+  mvc:
+    static-path-pattern: /img/**
+  resources.static-locations: file:${web.upload-path}
+  # 邮箱设置
+  mail:
+    default-encoding: UTF-8
+    host: smtp.qq.com
+    username: yiyouhn@foxmail.com
+    password: qedzypqywpkkbdid
+    properties.mail.smtp.auth: true
+    properties.mail.smtp.starttls.enable: true
+    properties.mail.smtp.starttls.required: true
+  thymeleaf:
+    mode: HTML5
+    encoding: UTF-8
+    servlet.content-type: text/html
+    cache: false
+  application:
+    name: ware-jwt-token
+
+config:
+  jwt:
+    # 加密密钥
+    secret: iwqjhda8232bjgh432[cicada-smile]
+    # token有效时长
+    expire: 3600
+    # header 名称
+    header: token
+
+web:
+  upload-path: E:/graduate-project/graduate-local/src/main/resources/static/img/
+
+mybatis.type-aliases-package:
+  com.graduate.domain
+
+#字段命名驼峰转换
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+server:
+  port: 8080
+

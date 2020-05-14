@@ -1,0 +1,83 @@
+.srcoll1 {
+    text-align: center;
+    width: 445px;
+    height: 480px;
+    overflow:scroll;
+    border: 0.5px  gray;
+
+}
+
+.a {
+    color: black;
+    background-color: white;
+}
+
+.side1 {
+    float: left;
+    margin-top: 4%;
+    margin-left: 8%;
+    width: 430px;
+    height: 480px;
+    background-image: url(./image/4.jpg);
+}
+
+.side2 {
+    float: left;
+    margin-top: 8.3%;
+    margin-left: 13%;
+    width: 400px;
+    height: 220px;
+    background-image: url(./image/3.jpg);
+}
+
+.side3 {
+    float: left;
+    margin-top: 9%;
+    margin-left: 11%;
+}
+
+.side {
+    display: flex;
+}
+
+.navfont {
+    color: gray;
+    font-size: 18px;
+}
+
+.sibutton {
+    margin-top: 6%;
+    margin-left: 5%;
+    width: 100px;
+    background-color: white;
+    border-color: gray;
+    border-width: 0.3px;
+}
+
+.sibutton1 {
+    width: 25px;
+    height: 180px;
+    background: transparent;
+    border-color: rgb(180, 178, 178);
+    border-width: 0.3px;
+    color: rgb(90, 89, 89);
+}
+
+.sitelist {
+    margin-left: 22%;
+    width: 200px;
+}
+
+.sitelist1 {
+    float: left;
+}
+
+.addinput {
+    width: 230px;
+    background:none;
+    border:none;
+    border-bottom:1px solid gray;
+}
+.add-align {
+    text-align: center;
+}

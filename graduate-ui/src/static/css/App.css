@@ -1,0 +1,44 @@
+
+.navfont {
+  font-size: 18px;
+}
+
+.navbar {
+  margin: 0px;
+  padding: 0px;
+}
+
+.top {
+  margin-top: 0px;
+  z-index: 99999;
+  position: fixed; 
+}
+
+.bottom {
+  margin-left: 30%;
+  bottom:1px;
+  position: fixed; 
+}
+
+.ico {
+  width: 10px;
+  height: 10px;
+}
+
+.img {
+  width: 20px;
+  height: 20px;
+}
+
+.toptime {
+  margin-top: 0.5%;
+  margin-left: 92%;
+  z-index: 99999;
+  position: fixed; 
+  color: gray;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
